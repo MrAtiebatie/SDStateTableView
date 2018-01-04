@@ -16,7 +16,7 @@ public enum SDStateCollectionViewState {
 }
 
 @IBDesignable
-public class SDStateCollectionView: UITableView {
+public class SDStateCollectionView: UICollectionView {
 
     @IBInspectable
     public var stateViewCenterPositionOffset: CGPoint = CGPoint(x: 0.0, y: 0.0) {
