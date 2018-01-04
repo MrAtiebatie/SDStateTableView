@@ -145,8 +145,8 @@ public class SDStateCollectionView: UICollectionView {
         }
     }
 
-    override init(frame: CGRect, style: UITableViewStyle) {
-        super.init(frame: frame, style: style)
+    public override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
+        super.init(frame: frame, collectionViewLayout: layout)
         setUp()
     }
 
