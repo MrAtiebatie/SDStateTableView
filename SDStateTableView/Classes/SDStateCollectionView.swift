@@ -118,8 +118,8 @@ public class SDStateCollectionView: UICollectionView {
         }
     }
 
-    var originalSeparatorStyle =  UITableViewCellSeparatorStyle.singleLine
-    var spinnerView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    var originalSeparatorStyle =  UITableViewCell.SeparatorStyle.singleLine
+    var spinnerView = UIActivityIndicatorView(style: .gray)
 
     var dataStateTitleLabel = UILabel.autolayoutView()
     var dataStateSubtitleLabel = UILabel.autolayoutView()
